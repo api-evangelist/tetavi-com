@@ -1,0 +1,22 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/tetavi-com/integrations
+- https://zapier.com/apps/tetavi/integrations
+- https://zapier.com/apps/yoom-fka-tetavi/integrations
+- https://n8n.io/integrations/tetavi-com/
+- https://n8n.io/integrations/tetavi/
+- https://composio.dev/toolkits/tetavi-com
+- https://monid.ai/tools/tetavi-com
+checked:
+- https://composio.dev/toolkits/tetavi-com
+- https://monid.ai/tools/tetavi-com
+- https://n8n.io/integrations/tetavi-com/
+- https://n8n.io/integrations/tetavi/
+- https://zapier.com/apps/tetavi-com/integrations
+- https://zapier.com/apps/tetavi/integrations
+- https://zapier.com/apps/yoom-fka-tetavi/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

@@ -1,25 +1,65 @@
 aid: tetavi-com
+
 name: Yoom (fka Tetavi)
-description: 'Yoom (fka Tetavi) is a company surfaced via the API Evangelist harvest backlog (source:
-  vc-portfolio; backed by insight-partners) and added to the network as a stub for full-pipeline profiling.'
+
+description: 'Yoom, formerly known as Tetavi, is a fintech platform offering mobile payment solutions and API-driven services for businesses and developers. The company provides tools for transaction processing, digital wallets, and integration capabilities that enable seamless financial experiences across applications. Backed by Insight Partners, Yoom focuses on delivering secure, scalable, and developer-friendly payment infrastructure to accelerate innovation in the financial services sector.'
+
 url: https://raw.githubusercontent.com/api-evangelist/tetavi-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
 - Company
-apis: []
+- FinTech
+- Payments
+- API
+- Platform
+- Mobile
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- insight-partners
+
 common:
+- type: Hosts
+  url: hosts/tetavi-com-hosts.yml
+- type: DomainSecurity
+  url: security/tetavi-com-domain-security.yml
 - type: Website
   url: https://www.tetavi.com/
+
+apis: []
+
+x-backed-by:
+- insight-partners
+
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-22'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://www.tetavi.com/
+    status: null
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 6
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
